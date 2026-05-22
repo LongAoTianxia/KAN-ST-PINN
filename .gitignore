@@ -1,0 +1,51 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Experiment data, generated outputs, and model checkpoints
+datasets/
+figures/
+trained/
+tmp/
+tmp*/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.mat
+
+# Runtime logs and temporary extraction files
+*.log
+*.out
+tmp_*.txt
+nohup*.out
+*_results.json
+
+# Local reference papers and binary documents
+*.pdf
+*.docx
+*.doc
